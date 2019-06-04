@@ -22,7 +22,7 @@ RUN \
 	update-alternatives --install /usr/bin/supervisord supervisord /usr/bin/supervisorgo 1 && \
   apt-get -y update && apt-get -y upgrade && \
   apt-get -o Dpkg::Options::=--force-confdef -y install curl netcat wget telnet \
-  vim mc bzip2 ssmtp locales python-pip software-properties-common && \
+  vim mc bzip2 ssmtp locales python-pip && \
   locale-gen en_GB.utf8 en_US.utf8 es_ES.utf8 de_DE.UTF-8 ru_RU.UTF-8 && \
   mkdir --mode 777 -p /var/log/supervisor && \
   chmod -R 777 /var/run /etc/ssmtp /etc/passwd /etc/group && \
