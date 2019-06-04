@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -d "/tmp/etc" ] 
+then
+    echo "Copy configs to /etc/"
+    cp -Rv /tmp/etc/. /etc/
+fi
