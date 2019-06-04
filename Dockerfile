@@ -34,9 +34,9 @@ RUN \
   sed -i '/^root.*/d' /etc/shadow
 ENV \
   SUPERVISORD_EXIT_ON_FATAL=1 \
-  LC_ALL=en_GB.UTF-8 \
-  LANG=en_GB.UTF-8 \
-  LANGUAGE=en_GB.UTF-8 \
+  LC_ALL=ru_RU.UTF-8 \
+  LANG=ru_RU.UTF-8 \
+  LANGUAGE=ru_RU.UTF-8 \
   SMTP_USER="" \
   SMTP_PASS="" \
   SMTP_DOMAIN="" \
