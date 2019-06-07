@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+if [ -d "/tmp/hooks" ]
+then
+    echo "Copy hooks to /hooks/"
+    cp -Rv /tmp/hooks/. /hooks/
+fi
